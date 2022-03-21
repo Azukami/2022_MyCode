@@ -18,6 +18,7 @@ int main()
             isPrime = 0;//num可以被除1和本身以外的数字整除，则num不是素数，此时让isPrime变为0表示num不是素数
         }
     }
+    
     if ( isPrime == 1 ) {
         printf("%d是素数\n", num);
     } else {
