@@ -8,26 +8,25 @@
 int main()
 {
     int n, m;
-    scanf("%d %d", &n, &m);
     int num = 1;//用以标记当前是第几个素数，开始为1
-    int susu = 2;//初始素数为2
+    int i, j;
     int sum = 0;//素数累加
-    int isPrime = 1;//标记是否为素数，如果是素数，则为1，如果不是素数，则为0
-    for(int i = 2; i < susu; i++) {
-        if (susu % i == 0) {
-            isPrime = 0;
-            break;
-        } else if (susu % i != 0) {
-            isPrime = 1;
-            sum += susu;
-            num++;
-            if (num >= n) {
-                
+    scanf("%d %d", &n, &m);
+    for(i = 2; num <= m; i++) {
+        int isPrime = 1;//标记是否为素数，如果是素数，则为1，如果不是素数，则为0
+        for(j = 2; j < i; j++) {
+            if (i % j == 0) {
+                isPrime = 0;
             }
         }
+        if (isPrime == 1) {
+            if (num >= n) {
+                sum += i;
+            }
+            num++;
+        }
     }
-
-
+    printf("%d", sum);
 
     return 0;
 }
