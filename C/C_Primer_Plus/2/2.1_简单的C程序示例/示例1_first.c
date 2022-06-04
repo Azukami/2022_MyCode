@@ -138,3 +138,18 @@ printf()Õ¹Ê¾ÁËÔÚCÓïÑÔÖÐÈçºÎµ÷ÓÃº¯Êý¡£Ö»ÐèÊäÈëº¯ÊýÃû£¬°ÑËùÐèµÄ²ÎÊýÌîÈëÔ²À¨ºÅ¼´¿É¡
 %d:Ïàµ±ÓÚÊÇÒ»¸öÕ¼Î»·û£¬Æä×÷ÓÃÊÇÖ¸Ã÷Êä³önumÖµµÄÎ»ÖÃ¡£%ÌáÐÑ³ÌÐò£¬ÒªÔÚ¸Ã´¦´òÓ¡Ò»¸ö
 ±äÁ¿£¬d±íÃ÷°Ñ±äÁ¿×÷ÎªÊ®½øÖÆÕûÊý´òÓ¡¡£printf()º¯ÊýÃûÖÐµÄfÌáÐÑÓÃ»§£¬ÕâÊÇÒ»ÖÖ¸ñÊ½»¯
 ´òÓ¡º¯Êý¡£printf()º¯ÊýÓÐ¶àÖÖ´òÓ¡±äÁ¿µÄ¸ñÊ½£¬°üÀ¨Ð¡ÊýºÍÊ®Áù½øÖÆÕûÊý¡£*/
+//8.returnÓï¾ä
+/*return 0;
+returnÓï¾äÊÇ³ÌÐòµÄ×îºóÒ»ÌõÓï¾ä¡£int main(void)ÖÐ¶¾µÄint±íÃ÷main()º¯ÊýÓ¦·µ»ØÒ»¸ö
+ÕûÊý¡£C±ê×¼ÒªÇómain()ÕâÑù×ö¡£ÓÐ·µ»ØÖµµÄCº¯ÊýÒªÓÐreturnÓï¾ä¡£¸ÃÓï¾äÒÔreturn¹Ø¼ü×Ö
+¿ªÊ¼£¬ºóÃæÊÇ´ý·µ»ØµÄÖµ£¬²¢ÒÔ·ÖºÅ½áÎ²¡£Èç¹ûÒÅÂ©main()º¯ÊýÖÐµÄreturnÓï¾ä£¬³ÌÐòÔÚÔËÐÐ
+ÖÁ×îÍâÃæµÄÓÒ»¨À¨ºÅ}Ê±»á·µ»Ø0¡£Òò´Ë£¬¿ÉÒÔÊ¡ÂÔmain()º¯ÊýÄ©Î²µÄreturnÓï¾ä¡£µ«ÊÇ£¬²»Òª
+ÔÚÆäËûÓÐ·µ»ØÖµµÄº¯ÊýÖÐÂ©µôËü¡£Òò´Ë£¬Ç¿ÁÒ½¨Òé¶ÁÕßÑø³ÉÔÚmain()º¯ÊýÖÐ±£ÁôreturnÓï¾ä
+µÄºÃÏ°¹ß¡£ÔÚÕâÖÖÇé¿öÏÂ£¬¿É½«Æä¿´×÷ÊÇÍ³Ò»´úÂë·ç¸ñ¡£¶ÔÓÚÄ³Ð©²Ù×÷ÏµÍ³(Linux\UNIX)£¬
+returnÓï¾äÓÐÊµ¼ÊµÄÓÃÍ¾¡£*/
+//C³ÌÐòµÄ»ù±¾½á¹¹
+/*³ÌÐòÓÉÒ»¸ö»ò¶à¸öº¯Êý×é³É£¬±ØÐëÓÐmain()º¯Êý¡£º¯ÊýÓÉº¯ÊýÍ·ºÍº¯ÊýÌå×é³É¡£º¯ÊýÍ·
+°üÀ¨º¯ÊýÃû¡¢´«Èë¸Ãº¯ÊýµÄÐÅÏ¢ÀàÐÍºÍº¯ÊýµÄ·µ»ØÀàÐÍ¡£Í¨¹ýº¯ÊýÃûºóµÄÔ²À¨ºÅ¿ÉÊ¶±ð³ö
+º¯Êý£¬Ô²À¨ºÅÀï¿ÉÄÜÎª¿Õ£¬¿ÉÄÜÓÐ²ÎÊý¡£º¯ÊýÌå±»»¨À¨ºÅÀ¨ÆðÀ´£¬ÓÉÒ»ÏµÁÐÓï¾ä¡¢ÉùÃ÷×é³É¡£
+±¾ÀýÉùÃ÷ÉùÃ÷ÁË³ÌÐòÊ¹ÓÃµÄ±äÁ¿ÃûºÍÀàÐÍ¡£È»ºóÊÇÒ»Ìõ¸³Öµ±í´ïÊ½Óï¾ä£¬±äÁ¿±»¸³¸øÒ»¸öÖµ¡£
+½ÓÏÂÀ´ÊÇ3Ìõprintf()Óï¾ä£¬µ÷ÓÃprintf()º¯Êý3´Î¡£×îºó£¬main()ÒÔreturnÓï¾ä½áÊø¡£*/
